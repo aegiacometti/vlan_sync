@@ -1,0 +1,4 @@
+hosts:
+  - name: ar-mtz-bc-02
+    host: 172.21.31.130
+    device_type: cisco_ios

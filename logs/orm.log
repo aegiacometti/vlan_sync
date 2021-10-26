@@ -1,0 +1,69 @@
+2021-10-26 14:34:45,668 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) _post_configure_properties() started
+2021-10-26 14:34:45,668 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop id
+2021-10-26 14:34:45,669 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop name
+2021-10-26 14:34:45,669 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop description
+2021-10-26 14:34:45,669 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) _post_configure_properties() complete
+2021-10-26 14:34:45,669 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) _post_configure_properties() started
+2021-10-26 14:34:45,669 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop device
+2021-10-26 14:34:45,670 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop id
+2021-10-26 14:34:45,670 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop name
+2021-10-26 14:34:45,670 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop description
+2021-10-26 14:34:45,670 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) _post_configure_properties() complete
+2021-10-26 14:34:45,682 - sqlalchemy.pool.impl.NullPool - DEBUG - Created new connection <sqlite3.Connection object at 0x7f7856ec0d50>
+2021-10-26 14:34:45,683 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f7856ec0d50> checked out from pool
+2021-10-26 14:34:45,683 - sqlalchemy.engine.Engine.orm - INFO - BEGIN (implicit)
+2021-10-26 14:34:45,683 - sqlalchemy.engine.Engine.orm - INFO - PRAGMA main.table_info("vlans")
+2021-10-26 14:34:45,683 - sqlalchemy.engine.Engine.orm - INFO - [raw sql] ()
+2021-10-26 14:34:45,684 - sqlalchemy.engine.Engine.orm - INFO - PRAGMA main.table_info("vlans_per_device")
+2021-10-26 14:34:45,684 - sqlalchemy.engine.Engine.orm - INFO - [raw sql] ()
+2021-10-26 14:34:45,685 - sqlalchemy.engine.Engine.orm - INFO - PRAGMA temp.table_info("vlans_per_device")
+2021-10-26 14:34:45,685 - sqlalchemy.engine.Engine.orm - INFO - [raw sql] ()
+2021-10-26 14:34:45,685 - sqlalchemy.engine.Engine.orm - INFO - 
+CREATE TABLE vlans_per_device (
+	device VARCHAR(10) NOT NULL, 
+	id VARCHAR(10), 
+	name VARCHAR(20), 
+	description VARCHAR(50), 
+	PRIMARY KEY (device)
+)
+
+
+2021-10-26 14:34:45,686 - sqlalchemy.engine.Engine.orm - INFO - [no key 0.00013s] ()
+2021-10-26 14:34:45,699 - sqlalchemy.engine.Engine.orm - INFO - COMMIT
+2021-10-26 14:34:45,700 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f7856ec0d50> being returned to pool
+2021-10-26 14:34:45,700 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f7856ec0d50> rollback-on-return
+2021-10-26 14:34:45,700 - sqlalchemy.pool.impl.NullPool - DEBUG - Closing connection <sqlite3.Connection object at 0x7f7856ec0d50>
+2021-10-26 14:34:45,701 - sqlalchemy - INFO - Getting VLANs from DB
+2021-10-26 14:34:45,702 - sqlalchemy.pool.impl.NullPool - DEBUG - Created new connection <sqlite3.Connection object at 0x7f7856ec0d50>
+2021-10-26 14:35:51,559 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) _post_configure_properties() started
+2021-10-26 14:35:51,560 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop id
+2021-10-26 14:35:51,562 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop name
+2021-10-26 14:35:51,562 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) initialize prop description
+2021-10-26 14:35:51,563 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanDb|vlans) _post_configure_properties() complete
+2021-10-26 14:35:51,563 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) _post_configure_properties() started
+2021-10-26 14:35:51,563 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop device
+2021-10-26 14:35:51,564 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop id
+2021-10-26 14:35:51,564 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop name
+2021-10-26 14:35:51,565 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) initialize prop description
+2021-10-26 14:35:51,566 - sqlalchemy.orm.mapper.Mapper - INFO - (VlanPerDevice|vlans_per_device) _post_configure_properties() complete
+2021-10-26 14:35:51,595 - sqlalchemy.pool.impl.NullPool - DEBUG - Created new connection <sqlite3.Connection object at 0x7f837f59ae40>
+2021-10-26 14:35:51,596 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f837f59ae40> checked out from pool
+2021-10-26 14:35:51,599 - sqlalchemy.engine.Engine.orm - INFO - BEGIN (implicit)
+2021-10-26 14:35:51,599 - sqlalchemy.engine.Engine.orm - INFO - PRAGMA main.table_info("vlans")
+2021-10-26 14:35:51,600 - sqlalchemy.engine.Engine.orm - INFO - [raw sql] ()
+2021-10-26 14:35:51,602 - sqlalchemy.engine.Engine.orm - INFO - PRAGMA main.table_info("vlans_per_device")
+2021-10-26 14:35:51,602 - sqlalchemy.engine.Engine.orm - INFO - [raw sql] ()
+2021-10-26 14:35:51,603 - sqlalchemy.engine.Engine.orm - INFO - COMMIT
+2021-10-26 14:35:51,604 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f837f59ae40> being returned to pool
+2021-10-26 14:35:51,604 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f837f59ae40> rollback-on-return
+2021-10-26 14:35:51,605 - sqlalchemy.pool.impl.NullPool - DEBUG - Closing connection <sqlite3.Connection object at 0x7f837f59ae40>
+2021-10-26 14:35:51,609 - sqlalchemy - INFO - Getting VLANs from DB
+2021-10-26 14:35:51,612 - sqlalchemy.pool.impl.NullPool - DEBUG - Created new connection <sqlite3.Connection object at 0x7f837f59ae40>
+2021-10-26 14:35:51,612 - sqlalchemy.pool.impl.NullPool - DEBUG - Connection <sqlite3.Connection object at 0x7f837f59ae40> checked out from pool
+2021-10-26 14:35:51,612 - sqlalchemy.engine.Engine.orm - INFO - BEGIN (implicit)
+2021-10-26 14:35:51,615 - sqlalchemy.orm.path_registry - DEBUG - set 'memoized_setups' on path 'CachingEntityRegistry((<Mapper at 0x7f837ef3fe20; VlanDb>,))' to '{}'
+2021-10-26 14:35:51,618 - sqlalchemy.engine.Engine.orm - INFO - SELECT vlans.id AS vlans_id, vlans.name AS vlans_name, vlans.description AS vlans_description 
+FROM vlans
+2021-10-26 14:35:51,618 - sqlalchemy.engine.Engine.orm - INFO - [generated in 0.00054s] ()
+2021-10-26 14:35:51,619 - sqlalchemy.orm.path_registry - DEBUG - set '('getters', <Mapper at 0x7f837ef3fe20; VlanDb>)' on path 'CachingEntityRegistry((<Mapper at 0x7f837ef3fe20; VlanDb>,))' to '{'cached_populators': {'new': [], 'quick': [('name', operator.itemgetter(1)), ('description', operator.itemgetter(2)), ('id', operator.itemgetter(0))], 'deferred': [], 'expire': [], 'delayed': [], 'existing': [], 'eager': []}, 'todo': [], 'primary_key_getter': sqlalchemy.engine.util.tuplegetter((0,))}'
+2021-10-26 14:35:51,619 - sqlalchemy - INFO - Database empty

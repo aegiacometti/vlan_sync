@@ -1,0 +1,22 @@
+poller:
+  sync_time: 60
+  logging_level: DEBUG
+  logging_file: logs/poller.log
+  log_max_size: 100000
+  backup_count: 2
+  # Devices to poll and sync at the same time
+  workers: 4
+
+db_orm:
+  logging_level: DEBUG
+  logging_file: logs/orm.log
+  log_max_size: 100000
+  backup_count: 2
+
+inventory_sources:
+  # Details about different inventory sources
+  remote_api_urls:
+    - url: 10.0.0.10
+
+  file_list:
+    - filename: inventory.yml

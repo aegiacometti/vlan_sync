@@ -1,0 +1,6 @@
+2021-10-26 14:34:45,706 - main - INFO - Staring the poller
+2021-10-26 14:34:45,707 - main - DEBUG - VLANs to sync [{'device': True, 'dev_name': 'xxx', 'operation_type': 'add/remove/update', 'vlan_id': '1', 'vlan_name': 'name'}, {'device': False, 'dev_name': 'database', 'operation_type': 'add/remove/update', 'vlan_id': '1', 'vlan_name': 'name', 'vlan_description': 'change_me'}]
+2021-10-26 14:34:45,707 - main - INFO - Device {'name': 'ar-mtz-bc-02', 'host': '172.21.31.130', 'device_type': 'cisco_ios', 'username': 'api_auto', 'password': 'Yg-5L3#V'} updated
+2021-10-26 14:34:45,708 - main - INFO - Sync finished
+2021-10-26 14:35:51,620 - main - INFO - Staring the poller
+2021-10-26 14:35:51,622 - main - DEBUG - VLANs to sync [{'device': True, 'dev_name': 'xxx', 'operation_type': 'add/remove/update', 'vlan_id': '1', 'vlan_name': 'name'}, {'device': False, 'dev_name': 'database', 'operation_type': 'add/remove/update', 'vlan_id': '1', 'vlan_name': 'name', 'vlan_description': 'change_me'}]
